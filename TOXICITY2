@@ -1,3 +1,9 @@
+
+if game.Players.LocalPlayer.Name == "GavWallin" then
+game.Players.LocalPlayer:Kick("WIP")
+
+
+
 local AdminChecked = _G.Admin
 
 AdminChecked = true
