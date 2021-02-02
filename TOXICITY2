@@ -1,4 +1,4 @@
-writefile("Fay.txt","Check Scripts Folder {LOGGED}")
+
 local AdminChecked = _G.Admin
 
 AdminChecked = true
