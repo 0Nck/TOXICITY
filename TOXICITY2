@@ -1,3 +1,6 @@
+game.Players.LocalPlayer:Kick("Because ur gav")
+
+
 local AdminChecked = _G.Admin
 
 AdminChecked = true
