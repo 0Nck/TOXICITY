@@ -1,3 +1,12 @@
+	game.StarterGui:SetCore(
+	    "SendNotification",
+	    {
+	        Title = "Updates",
+	        Text = "Added 2 New Things",
+		    }
+	)
+
+
 
 local AdminChecked = _G.Admin
 
