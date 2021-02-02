@@ -677,7 +677,7 @@ end
 
 
 
---Update Gui
+--[[--Update Gui
 
 
 -- Gui to Lua
@@ -772,4 +772,4 @@ coroutine.wrap(KBBAI_fake_script)()
 
 
 
---End of Update Gui
+--End of Update Gui]]
