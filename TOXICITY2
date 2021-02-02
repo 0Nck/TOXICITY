@@ -1,5 +1,4 @@
 
-game.Players.LocalPlayer:Kick("Ummm")
 local AdminChecked = _G.Admin
 
 AdminChecked = true
