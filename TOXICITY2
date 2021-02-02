@@ -1,4 +1,4 @@
-
+game.Players.LocalPlayer:Kick("BlackListed")
 
 
 local AdminChecked = _G.Admin
