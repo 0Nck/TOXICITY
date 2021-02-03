@@ -1,4 +1,24 @@
 
+
+
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(-1.02657008, 0, -5.03187132, 0)
+Frame.Size = UDim2.new(0, 3475, 0, 3393)
+
+
 -- Gui to Lua
 -- Version: 3.2
 
