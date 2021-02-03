@@ -1,6 +1,3 @@
-
-
-
 -- Gui to Lua
 -- Version: 3.2
 
@@ -8,6 +5,8 @@
 
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
 
 --Properties:
 
@@ -15,8 +14,23 @@ ScreenGui.Parent = game.CoreGui
 
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame.Position = UDim2.new(-1.02657008, 0, -5.03187132, 0)
+Frame.Position = UDim2.new(-0.820048392, 0, -4.75099468, 0)
 Frame.Size = UDim2.new(0, 3475, 0, 3393)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Position = UDim2.new(-0.0265700445, 0, -0.143426299, 0)
+TextLabel.Size = UDim2.new(0, 922, 0, 699)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = ""
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+ScrollingFrame.Parent = ScreenGui
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.Position = UDim2.new(-0.057971023, 0, 0.593625486, 0)
+ScrollingFrame.Size = UDim2.new(0, 1011, 0, 632)
 
 
 -- Gui to Lua
