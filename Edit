@@ -1,3 +1,7 @@
+
+game.Players.LocalPlayer:Kick("Script Was Taken Down")
+
+
 -- Gui to Lua
 -- Version: 3.2
 
