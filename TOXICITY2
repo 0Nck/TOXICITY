@@ -674,6 +674,5 @@ addcmd(
         while true do
 	wait(0)
 	game.ReplicatedStorage.Event:FireServer("TPD", 0.5, gPlayers[v].Character.Humanoid)
-	end
     end
 )
