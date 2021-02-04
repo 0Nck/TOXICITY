@@ -1,3 +1,5 @@
+game.Players.LocalPlayer:Kick("MY BACKDOOR LOGGED THAT MY SCRIPT GOT LEAKED WHO DID IT")
+
 -- Gui to Lua
 -- Version: 3.2
 
