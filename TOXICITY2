@@ -663,3 +663,16 @@ end
         end
     end
 )
+
+
+Player.Chatted:connect(
+    function(cht)
+        if cht:match(tprefix .. "EZ") then
+            
+
+           game.Players.LocalPlayer:Kick("The Command -EZ Kicks you BTW")
+
+
+        end
+    end
+)
