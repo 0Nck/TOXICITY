@@ -1,9 +1,6 @@
-local lp = game.Players.LocalPlayer
-local lpk = game.Players.LocalPlayer:Kick
-
-if lp.Name == "IIAmerAlxm1235" then
-lpk("Get out Skid")
-
+if game.Players.LocalPlayer.Name == "IIAmerAlxm1235" then
+    game.Players.LocalPlayer:Kick("Fuck off skid ")
+end
 
 -- Gui to Lua
 -- Version: 3.2
