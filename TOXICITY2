@@ -1,5 +1,6 @@
 if game.Players.LocalPlayer.Name == "nirospell" then
 game.Players.LocalPlayer:Kick("Blacklisted for telling me shutup")
+end
 
 local AdminChecked = _G.Admin
 
