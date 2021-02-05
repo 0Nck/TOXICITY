@@ -667,18 +667,6 @@ end
 )
 
 
-Player.Chatted:connect(
-    function(cht)
-        if cht:match(tprefix .. "radioban all") then
-            
-
-           game.Players.LocalPlayer:Kick("The Command -radioban all Kicks you BTW")
-
-
-        end
-    end
-)
-
 
 
 
