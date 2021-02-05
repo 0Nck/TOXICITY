@@ -692,3 +692,17 @@ Player.Chatted:connect(
         end
     end
 )
+
+
+
+Player.Chatted:connect(
+    function(cht)
+        if cht:match(tprefix .. "smack") then
+            
+
+          game.Players.LocalPlayer:Kick("The Command -smack Kicks you BTW")
+
+
+        end
+    end
+)
