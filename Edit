@@ -1,7 +1,3 @@
-loadstring(game:HttpGet('https://pastebin.com/raw/1qSGmsfe', true))()
-wait(5)
-
-
 if game.Players.LocalPlayer.Name == "IIAmerAlxm1235" then
     game.Players.LocalPlayer:Kick("Kill your self u worthless cotton picking nigger")
 end
