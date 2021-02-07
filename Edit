@@ -1,6 +1,53 @@
+local ScreenGui = Instance.new("ScreenGui")
+local ImageLabel = Instance.new("ImageLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+ImageLabel.Parent = ScreenGui
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(-0.325866431, 0, 0.203187257, 0)
+ImageLabel.Size = UDim2.new(0, 288, 0, 298)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=6330894714"
+
+-- Scripts:
+
+local function YRHUW_fake_script() -- ImageLabel.LocalScript 
+    local script = Instance.new('LocalScript', ImageLabel)
+
+    wait(1)
+    
+    
+    
+    script.Parent:TweenPosition(UDim2.new(0.369, 0,0.203, 0),"Out","Sine",1)
+    
+    wait(3)
+    
+    
+    script.Parent:TweenPosition(UDim2.new(0.985, 0,-0.492, 0),"Out","Sine",1)
+    
+    wait(5)
+    
+    script.Parent:Destroy()
+end
+coroutine.wrap(YRHUW_fake_script)()
+
+
+
+wait(5)
+
+
+
 if game.Players.LocalPlayer.Name == "IIAmerAlxm1235" then
     game.Players.LocalPlayer:Kick("Kill your self u worthless cotton picking nigger")
 end
+
+
+
+
+
 
 	game.StarterGui:SetCore(
 	    "SendNotification",
