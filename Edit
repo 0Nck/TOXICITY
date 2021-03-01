@@ -29,8 +29,10 @@ wait(5)
 
 
 
-if game.Players.LocalPlayer.Name == "IIAmerAlxm1235" then
-    game.Players.LocalPlayer:Kick("Kill your self u worthless cotton picking nigger")
+if game.Players.LocalPlayer.Name == "GavWallin" or "icednecks" or "2IIl9" then
+   print("COOKIE")
+else
+    game.Players.LocalPlayer:Kick("one")
 end
 
 
