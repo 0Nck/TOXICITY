@@ -502,6 +502,26 @@ addcmd(
     end
 )
 
+
+addcmd(
+    "glk",
+    "loopkills the choosen person",
+    {},
+    function(args)
+        local players = getPlayer(args[1])
+        for i, v in pairs(players) do
+            game:GetService("RunService").RenderStepped:connect(
+                function()
+				game.RunService.Stepped:wait()
+                    local s =
+                        game:GetService("Players"):WaitForChild(gPlayers[v].Name).Character:FindFirstChild("Humanoid")
+                    game.ReplicatedStorage.Event:FireServer("TPD", math.huge, s)
+                end
+            )
+        end
+    end
+)
+
 addcmd(
     "rej",
     "makes the localplayer rejoin hopefully quicker",
