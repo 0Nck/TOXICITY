@@ -1,31 +1,4 @@
-rconsoleinfo('Fays Admin Loading..')
-rconsoleprint('@@LIGHT_CYAN@@')
-
-rconsoleprint('Welcome '..game.Players.LocalPlayer.Name)
-
-rconsoleprint([[
-
-______                         
-|  ___|                        
-| |_ __ _ _   _ ___            
-|  _/ _` | | | / __|           
-| || (_| | |_| \__ \           
-\_| \__,_|\__, |___/           
-           __/ |               
-          |___/                
-  ___      _           _       
- / _ \    | |         (_)      
-/ /_\ \ __| |_ __ ___  _ _ __  
-|  _  |/ _` | '_ ` _ \| | '_ \ 
-| | | | (_| | | | | | | | | | |
-\_| |_/\__,_|_| |_| |_|_|_| |_|
-                               
-                               ]])
-
-rconsoleprint('Enjoy!')
-
-
-wait(5)
+wait(0)
 
 
 
