@@ -29,17 +29,6 @@ wait(5)
 
 
 
-if game.Players.LocalPlayer.Name == "GavWallin" or "icednecks" or "2IIl9" then
-   print("COOKIE")
-else
-    game.Players.LocalPlayer:Kick("one")
-end
-
-
-
-
-
-
 	game.StarterGui:SetCore(
 	    "SendNotification",
 	    {
