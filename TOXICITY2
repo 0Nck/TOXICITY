@@ -696,12 +696,9 @@ Player.Chatted:connect(
         if cht:match(tprefix .. "agui") then
             
 
-           loadstring(game:HttpGet('https://pastebin.com/raw/SrckCyqX', true))()
+           loadstring(game:HttpGet('https://pastebin.com/raw/uyzCgitP', true))()
 
 
         end
     end
 )
-
-
-
