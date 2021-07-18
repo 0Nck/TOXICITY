@@ -39,6 +39,6 @@ end
 MessageColor("Welcome to fays Admin Sexy People", Color3.fromRGB(85, 0, 255))
 MessageColor("New Updates;", Color3.fromRGB(85, 0, 255))
 MessageColor("", Color3.fromRGB(85, 0, 255))
-MessageColor("Added; -cmds" , Color3.fromRGB(85, 0, 255))
+MessageColor("Added; -tm" , Color3.fromRGB(85, 0, 255))
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/9Fay/TOXICITY/main/TOXICITY2', true))()
